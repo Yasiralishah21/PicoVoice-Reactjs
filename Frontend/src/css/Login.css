@@ -1,0 +1,152 @@
+.login-page {
+  min-height: 100vh;
+  background: #0f1117;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 480px;
+
+  background: rgba(24, 28, 39, 0.95);
+  border: 1px solid rgba(127, 90, 240, 0.25);
+
+  border-radius: 24px;
+
+  padding: 40px;
+
+  box-shadow:
+    0 0 40px rgba(127, 90, 240, 0.15),
+    0 0 80px rgba(44, 182, 125, 0.08);
+
+  backdrop-filter: blur(10px);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.badge {
+  display: inline-block;
+
+  background: rgba(127, 90, 240, 0.15);
+  color: #7f5af0;
+
+  border: 1px solid rgba(127, 90, 240, 0.4);
+
+  padding: 8px 18px;
+  border-radius: 30px;
+
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.login-header h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.login-header h1 span {
+  background: linear-gradient(
+    90deg,
+    #7f5af0,
+    #2cb67d
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login-header p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  margin-bottom: 8px;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+input {
+  background: #111827;
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  color: white;
+
+  padding: 14px;
+  border-radius: 12px;
+
+  outline: none;
+
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #7f5af0;
+
+  box-shadow:
+    0 0 0 3px rgba(127,90,240,0.15);
+}
+
+.login-btn {
+  margin-top: 30px;
+
+  background: linear-gradient(
+    90deg,
+    #7f5af0,
+    #2cb67d
+  );
+
+  border: none;
+  color: white;
+
+  padding: 14px;
+
+  border-radius: 12px;
+
+  font-weight: 600;
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 25px rgba(127,90,240,0.3);
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.login-footer p {
+  color: #9ca3af;
+}
+
+.login-footer a {
+  color: #7f5af0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-footer a:hover {
+  color: #2cb67d;
+}

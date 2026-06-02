@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  /* border : 3px solid teal; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  /* width: 500px; */
+  height: 500px;
+  background: #6c63ff;
+  filter: blur(180px);
+  opacity: 0.4;
+}
+
+.content {
+  text-align: center;
+  /* z-index: 2; */ 
+}
+
+.content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 40px;
+}
+
+.mic-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mic-btn svg {
+  width: 36px;
+  height: 36px;
+}
+
+.mic-btn.active {
+  background: #ff0055;
+  box-shadow:
+    0 0 30px #ff0055,
+    0 0 60px #ff0055;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.hero-text{
+  color: whitesmoke;
+}
